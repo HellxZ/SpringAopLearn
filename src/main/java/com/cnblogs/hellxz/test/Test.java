@@ -15,4 +15,8 @@ public class Test {
 		System.out.println("当前输入参数为："+arg);
 		return arg;
 	}
+
+	public void input(String arg, int intValue){
+		System.out.println("测试入参方法执行");
+	}
 }

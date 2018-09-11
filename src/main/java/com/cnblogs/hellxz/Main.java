@@ -19,10 +19,10 @@ public class Main {
 //		hello.addUser("hellxz", "12345");
 //		World world = ctx.getBean("world",World.class);
 //		world.bar();
-//		world.exception();
 		Test bean = ctx.getBean("test", Test.class);
 //		bean.boom();
-		bean.input("1234");
+//		bean.input("1234");
+		bean.input("1234", 1);
 	}
 
 }
